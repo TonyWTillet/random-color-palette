@@ -1,10 +1,28 @@
 # random-color-palette
 
-This template should help get you started developing with Vue 3 in Vite.
+A modern color palette generator application with the following features:
 
-## Recommended IDE Setup
+UI/Design:
+- Dark theme with glassmorphic elements and smooth transitions
+- Responsive grid layout (1-4 columns based on screen size)
+- Custom scrollbar styling
+- Modern header with search bar and social links
+- Interactive color blocks with hover effects
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Core Features:
+- Generate random color palettes
+- Copy individual colors with click
+- Copy all colors from a palette
+- Search palettes by name
+- Edit palette names inline
+- Delete unwanted palettes
+- Success notifications for user actions
+
+Data Management:
+- Local storage implementation for palette persistence
+- Auto-save on all palette modifications
+- Load saved palettes on app startup
+- Deep watching for palette changes
 
 ## Customize configuration
 
